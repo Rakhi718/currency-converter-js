@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url(curr.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+   padding-top: 10rem;
+}
+.heading{
+    padding: 1rem;
+    font-size: 1.3rem;
+   color: rgb(6, 6, 123);
+}
+
+#image{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.inp{
+    font-size: 1.2rem;
+    width:fit-content;
+}
+.form{
+     background-color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 20rem;
+     flex-wrap: wrap;
+     padding: 2rem;
+     border-radius: 2rem;
+}
+
+#arr{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: 0.1rem solid black;
+    size: 2rem;
+    
+}
+.amount{
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.country{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+.from,
+.to{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.currconv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.msg{
+    margin-top: 1rem;
+    width: 100%;
+display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+button{
+    padding: 0.2rem;
+    background-color:aliceblue;
+    border : 0.1rem solid black;
+    cursor : pointer;
+    margin-top: 1rem;
+    width:fit-content 
+
+}
+
+@media (max-width: 600px){
+
+    .currconv{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .from,
+    .to{
+        gap: 5px;
+    }
+
+    .country img{
+        width: 30px;
+    }
+}
