@@ -18,3 +18,5 @@ A currency converter web application that converts one currency to another using
 1. Download the project.
 2. Open `index.html` in your browser.
 
+## screenshot
+![Tic Tac Toe Screenshot](images/curr.png)
